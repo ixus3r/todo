@@ -13,7 +13,7 @@
         <div class="form-place">
             <form class="" action="{{ route('addcategory') }}" method="post">
                 <input name="title" type="text"  class="new-todo-input" placeholder="Add Task Category"/>
-                <button class="todo-button" type="submit"> Add category </button>
+                <button class="todo-button" type="submit"> Add category for todo</button>
             </form>
         </div>
             <div class="form-place">
