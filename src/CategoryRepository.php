@@ -1,8 +1,8 @@
 <?php
 
-namespace Bosunski\Todo;
+namespace Yuliyandoev\Todo;
 
-use Bosunski\Todo\Task;
+use Yuliyandoev\Todo\Task;
 
 class CategoryRepository
 {

@@ -1,25 +1,25 @@
 {
-    "name": "bosunski/todo",
+    "name": "yuliyandoev/todo",
     "description": "A Simple Laravel ToDo List Package",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bosun Egberinde",
-            "email": "bosunski@gmail.com"
+            "name": "Yuliyan Doev",
+            "email": "y.doev@hotmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
-            "Bosunski\\Todo\\": "src/"
+            "Yuliyandoev\\Todo\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bosunski\\Todo\\TodoServiceProvider"
+                "Yuliyandoev\\Todo\\TodoServiceProvider"
             ]
         }
     }

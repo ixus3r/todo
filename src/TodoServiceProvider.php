@@ -1,6 +1,6 @@
 <?php
 
-namespace Bosunski\Todo;
+namespace Yuliyandoev\Todo;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,6 +25,6 @@ class TodoServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Bosunski\Todo\Controllers\MainController');
+        $this->app->make('Yuliyandoev\Todo\Controllers\MainController');
     }
 }

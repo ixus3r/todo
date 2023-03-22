@@ -1,11 +1,11 @@
 <?php
 
-namespace Bosunski\Todo\Controllers;
+namespace Yuliyandoev\Todo\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Bosunski\Todo\TaskRepository;
-use Bosunski\Todo\CategoryRepository;
+use Yuliyandoev\Todo\TaskRepository;
+use Yuliyandoev\Todo\CategoryRepository;
 
 class MainController extends Controller
 {

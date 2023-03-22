@@ -1,10 +1,10 @@
 <?php
 
-namespace Bosunski\Todo;
+namespace Yuliyandoev\Todo;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    protected $table = 'bosunski_categories';
+    protected $table = 'yuliyandoev_categories';
 }

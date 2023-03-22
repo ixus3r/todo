@@ -1,14 +1,14 @@
 <?php
 
-namespace Bosunski\Todo;
+namespace Yuliyandoev\Todo;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-    protected $table = 'bosunski_tasks';
+    protected $table = 'yuliyandoev_tasks';
     public function category()
     {
-        return $this->belongsTo('Bosunski\Todo\Category');
+        return $this->belongsTo('Yuliyandoev\Todo\Category');
     }
 }

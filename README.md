@@ -5,7 +5,7 @@ A simple Laravel Todo List Package
 --------
 To get started, you simply need to run:
 
-    $ composer require bosunski/todo:dev-master
+    $ composer require yuliyandoev/todo:dev-master
     
 This will install the package.
 

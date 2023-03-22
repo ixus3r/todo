@@ -42,7 +42,7 @@ var vm = new Vue({
 
     removetask: function(task) {
       var index = this.tasks.indexOf(task);
-      this.$http.delete('/bosunski-delete-task/'+task.id).then(response => {
+      this.$http.delete('/yuliyandoev-delete-task/'+task.id).then(response => {
           if(response.data.done) this.tasks.splice(index, 1);
       });
 

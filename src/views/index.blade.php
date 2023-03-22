@@ -9,7 +9,7 @@
   <body id="body">
     <div id="app">
       <div id="todo-container">
-        <h1 class="todo-head">Bosunski's ToDo</h1>
+        <h1 class="todo-head">Yuliyandoev's ToDo</h1>
         <div class="form-place">
             <form class="" action="{{ route('addcategory') }}" method="post">
                 <input name="title" type="text"  class="new-todo-input" placeholder="Add Task Category"/>
